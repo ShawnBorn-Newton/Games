@@ -2,7 +2,14 @@ import pygame
 
 pygame.init()
 
-gameDisplay = pygame.display.set_mode((800, 600))
+display_width = 800
+display_height = 600
+
+black = (0,0,0)
+white = (255,255,255)
+red = (255,0,0)
+
+gameDisplay = pygame.display.set_mode((display_width,display_height))
 
 pygame.display.set_caption('Car Game')
 
